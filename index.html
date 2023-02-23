@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>PIEDRA PAPEL O TIJERA</h1>
+        <div class="container-button-play">
+            <button id="play" onclick="aparecer_items()">JUGAR AHORA</button>
+        </div>
+        <div id="items" class="container-items">
+            <div id="papel" class="container-items-box">
+                <img src="IMAGENES/TIJERA.png" alt="">
+                <p>PAPEL</p>
+            </div>
+            <div id="piedra" class="container-items-box">
+                <img src="IMAGENES/Diseño sin título.png" alt="">
+                <P>PIEDRA</P>
+            </div>
+            <div id="tijera" class="container-items-box">
+                <img src="IMAGENES/Diseño sin título (1).png" alt="">
+                <p>TIJERA</p>
+            </div>
+        </div>
+        <div class="container-result">
+            <div id="mostrar_humano"  class="container-result-box">
+
+            </div>
+           
+
+            <div id="mostrar_bot" class="container-result-box">
+
+            </div>
+            
+        </div>
+        <div class="container-result-letras">
+            <div class="container-result-letras-box"> 
+                <h2>HUMANO</h2>
+            </div>
+            <div class="container-result-letras-box">
+                <H2>BOT</H2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
